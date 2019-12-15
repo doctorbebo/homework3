@@ -19,10 +19,8 @@ textarea
     resize: none;
     border: none;
     height: 100px;
-    width: 100%;
+    width: 95%;
     padding: 8px;
-    margin: 10px auto;
-    font-size: 20px;
     color: lightgrey;
 }
 .background
@@ -111,6 +109,10 @@ button
     margin: 5px auto;
     background-color: silver;
 }
+textarea
+{
+    width: 90%;
+}
 
 }
 @media only screen and (max-width: 700px)
@@ -127,5 +129,9 @@ h2
 .container
 {
     width: 75%;
+}
+textarea
+{
+    width: 80%;
 }
 }
