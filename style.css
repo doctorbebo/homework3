@@ -5,17 +5,121 @@ html
 }
 h1
 {
+    color: white;
     font-size: 55px;
 }
 h2
 {
-    
+    text-align: left;
+    margin: 10px;
 }
 p
 {
+    padding: 8px;
     font-size: 20px;
+    color: lightgrey;
 }
 .background
 {
-    
+    height: 100%;
+    width: 100%;
+    background-image: url("assests/images/background.png");
+}
+.wrapper
+{
+    margin: 50px auto;
+    width: 80%;
+}
+.container
+{
+    margin: 25px auto 25px auto;
+    width: 95%;
+    background: white;
+    padding: 30px;
+}
+.row
+{
+    margin: auto;
+    width: 90%;
+}
+.bottomborder
+{
+    border-bottom: solid lightgray 2px;
+}
+.topborder
+{
+    border-top: solid lightgray 2px;
+}
+.dashed-border
+{
+    height: 100px;
+    border: dashed lightgray 2px;
+    margin: 10px;
+}
+button
+{
+    width: auto;
+    font-size: 20px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+
+}
+.button1
+{
+    width: 40%;
+    margin-right: 9%;
+    background-color: red;
+}
+.button2
+{
+    width: 40%;
+    margin-left: 9%;
+    background-color: silver;
+
+}
+.indent
+{
+    margin: 10px auto;
+    width: 80%;
+}
+.middle
+{
+    width: 20%;
+}
+
+@media only screen and (max-width: 1050px)
+{
+
+.button1
+{
+    width: 80%;
+    margin: 5px auto;
+    background-color: red;
+ 
+}
+
+.button2
+{
+    width: 80%;
+    margin: 5px auto;
+    background-color: silver;
+}
+
+}
+@media only screen and (max-width: 700px)
+{
+
+    button
+{
+    font-size: 15px;
+}
+h2
+{
+    font-size: 30px;
+}
+.container
+{
+    width: 75%;
+}
 }
